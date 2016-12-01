@@ -1,21 +1,35 @@
-# Resumé
+# Curriculum Vitae - Rollo Konig-Brock - 11th November 2016
 
 I’m a developer from Ireland who focuses on full stack web development. I have
 worked with technologies from Drupal to Django, and languages from Python to
 PHP. I enjoy good design, and take a keen interest of the challenges of using
 technology as an effective tool to communicate. In my spare time enjoy studying
 computer science, reading interesting books, and as much sport I can reasonably
-do.
+do. 
+
+*I'm available for new work at the begining of the new year.*
 
 ## Experience
 
 ### Contract - Full Stack Developer, Lystable 
-*London - June 2016 - Present*
+*London - June 2016 - December 2016*
 
 With Lystable, I have primarily been a back end developer with a focus on
-improving infrastructure, as well as the occasional feature which requires full
-stack development.  During my time at Lystable I have created a comprehensive
-audit logging system, 
+improving infrastructure of the backend, as well as the features that which
+requires full stack development. I worked on features such as:a
+webhook framework; audit logging systems; notification behaviors; database
+analytics; as well as third party integrations.
+
+The primary technologies used were, Python, Postgres, ElasticSearch, RabbitMQ,
+and a messaging framework built on top of rabbit called Nameko. I introduced
+the use of Postgres' asynchronous `NOTIFY` capability log changes to the
+database in a fault tolerant and scalable manner. I have also been worked
+on creating a location aware search, leveraging OpenStreet Maps and
+ElasticSearch.
+
+While my primary role at Lystable was the backend, I also worked on React.JS
+applications adding smaller features like integrations to third party services,
+and updates to how the application consumes our API.
 
 ### Contract - Full Stack Developer, Bought By Many
 *November 2015 - June 2016*
@@ -118,3 +132,5 @@ skilled with but have not explicitly mentioned.
 ### Contact 
 
 rollokb+recruitment@gmail.com
+
+I am happy to take calls, but due to volume I prefer an introductory email.
