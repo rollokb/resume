@@ -1,13 +1,11 @@
-# Curriculum Vitae - Rollo Konig-Brock - 11th November 2016
+# Curriculum Vitae - Rollo Konig-Brock
 
 I’m a developer from Ireland who focuses on full stack web development. I have
-worked with technologies from Drupal to Django, and languages from Python to
-PHP. I enjoy good design, and take a keen interest of the challenges of using
-technology as an effective tool to communicate. In my spare time enjoy studying
-computer science, reading interesting books, and as much sport I can reasonably
-do. 
+a number of years commercial experience with Python and modern JavaScript.
+While at times I have also worked with PHP, Objective-C and Swift. I enjoy
+coming up with simple and scalable solutions to complex problems.
 
-*I'm available for new work at the begining of the new year.*
+As of the 1st December 2016 am I available for work.
 
 ## Experience
 
@@ -36,20 +34,20 @@ and updates to how the application consumes our API.
 
 As a full stack developer for Bought By Many I worked in Agile teams on both
 consumer facing websites such as ExoticDirect.com and BoughtByMany.com;
-micro-services; and frontend SaaS applications. 
+micro-services; and frontend SaaS applications.
 
 I worked on everything from simple front end components written in CoffeeScript
 and SASS, to more complex realtime websocket powered user-interfaces. While work
-on Bought By Many’s micro services involved adding new features, such as: new
-endpoint; analytical Mongo aggregations; and API integrations with third parties
-and our own services, to several large Flask applications.
+on Bought By Many’s Python based microservices involved adding new features, such 
+as: new endpoints; analytical Mongo aggregations; and API integrations with third parties and our own services, to several large Flask applications.
 
 I created a new frontend SaaS application to replace the one written in
 Backbone.JS. This application served as a frontend to Bought By Many’s micro
 services; which needed a tool to visualize data and administrate aspects of the
 business. I rewrote the app in modern ES6; using RxJS (a functional JS library)
 as the primary library, while using D3.js for data visualisations. The build
-depended on PostCSS and Babel, and jQuery Globalize (for I18N).
+depended on PostCSS and Babel, and jQuery Globalize for
+internationalization (I18N).
 
 ### Full Stack Developer, Seven Stones - Total Health
 *January 2015 - October 2015*
@@ -80,7 +78,7 @@ communicating the sites' behaviour.
 
 I created clean and responsive websites with semantic HTML, and clean
 preprocessed CSS, which degraded gracefully in older browsers. I also created a
-number of simple web applications within Drupal for advanced searching of
+number of simple web applications within Drupal (PHP) for advanced searching of
 content and data.
 
 While I was there, I expanded the tool chain by introducing Git, SASS and Amazon
