@@ -102,7 +102,7 @@ For this I created a CMS for the app written in Django with a basic
 administration interface, which provided an API for the delivery content, and
 registration of in app purchases which were used to drive the pay per issue
 system.
-	
+
 ### Intern, Canonical Ltd. 
 *February 2011 - March 2011*
 As an intern at Canonical I worked on the Ubiquity Desktop Installer, which
@@ -116,7 +116,7 @@ was introduced to the ‘QT’ framework which uses CSS for styling the UI; I wa
 responsible for updating some of the UI under the guidance of a graphic
 designer.
 
-### Skills (Basically buzzwords)	
+### Skills (Basically buzzwords)
 
 This is basically to aid recruiters searching for technologies, which I'm 
 skilled with but have not explicitly mentioned.
