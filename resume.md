@@ -1,13 +1,13 @@
 # Curriculum Vitae - Rollo Konig-Brock
 
 I’m a developer from Ireland who focuses on full stack web development. I have
-a number of years commercial experience with Python and modern JavaScript.
-While at times I have also worked with PHP, Objective-C and Swift. I have
-experience working in agencies, health technology, financial
+a number of years commercial experience with Python (Django and Flask) and
+modern JavaScript. While at times I have also worked with PHP, Objective-C 
+and Swift. I have experience working in agencies, health technology, financial
 technology, and startups. I enjoy coming up with simple and scalable
 solutions to complex problems.
 
-As of the 1st December 2016 am I available for work.
+As of the 1st January 2016 am I available for work.
 
 ## Experience
 
@@ -34,14 +34,15 @@ and updates to how the application consumes our API.
 ### Contract - Full Stack Developer, Bought By Many
 *November 2015 - June 2016*
 
-As a full stack developer for Bought By Many I worked in Agile teams on both
-consumer facing websites such as ExoticDirect.com and BoughtByMany.com;
-micro-services; and frontend SaaS applications.
+As a full stack developer for Bought By Many I worked in agile teams on
+consumer facing Django websites such as ExoticDirect.com and BoughtByMany.com;
+Flask based micro-services; and frontend SaaS applications.
 
 I worked on everything from simple front end components written in CoffeeScript
 and SASS, to more complex realtime websocket powered user-interfaces. While work
 on Bought By Many’s Python based microservices involved adding new features, such 
-as: new endpoints; analytical Mongo aggregations; and API integrations with third parties and our own services, to several large Flask applications.
+as: new endpoints; analytical Mongo aggregations; and API integrations with third 
+parties and our own services, to several large Flask applications.
 
 I created a new frontend SaaS application to replace the one written in
 Backbone.JS. This application served as a frontend to Bought By Many’s micro
