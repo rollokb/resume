@@ -1,5 +1,3 @@
-# Curriculum Vitae - Rollo Konig-Brock
-
 I’m a developer from Ireland who focuses on full stack web development. I have
 a number of years commercial experience with Python (Django and Flask) and
 modern JavaScript. While at times I have also worked with PHP, Objective-C 
@@ -7,9 +5,31 @@ and Swift. I have experience working in agencies, health technology, financial
 technology, and startups. I enjoy coming up with simple and scalable
 solutions to complex problems.
 
-As of the 1st January 2016 am I available for work.
+Along with software engineering I'm an Army Reservist, compete in
+triathlons, and distance running events.
+
+As of the 18th September 2016 am I available for work.
 
 ## Experience
+
+### Python Developer - ComplyAdvantage
+*London - January 2017 - September 2017*
+
+As a Python developer, I worked on the design and development of distributed
+and fault tolerant microservices, while also building carefully designed APIs.
+Due to the size of the datasets used at ComplyAdvantage I payed careful attention
+to performance and achieved a number of notable performance gains.
+
+While at ComplyAdvantage I lead the development of a new JSON-API compliant
+REST API, that unified two separate APIs, while paying careful attention to
+permissions granularity and performance. I also refactored existing code, such
+as moving a Tornado API to Flask and, optimising and replacing raw SQL with
+SQLAlchemy.
+
+I also had a customer facing role where I was responsible for the import,
+export and migration of customer data. To handle the increasing volume I wrote
+set of tools that leveraged Pandas, Numpy, S3, SQS and Lambda, which enabled
+the customer success team to take over the much of the process.
 
 ### Contract - Full Stack Developer, Lystable 
 *London - June 2016 - December 2016*
@@ -23,7 +43,7 @@ analytics; as well as third party integrations.
 The primary technologies used were, Python, Postgres, ElasticSearch, RabbitMQ,
 and a messaging framework built on top of rabbit called Nameko. I introduced
 the use of Postgres' asynchronous `NOTIFY` capability log changes to the
-database in a fault tolerant and scalable manner. I have also been worked
+database in a fault tolerant and scalable manner. I have also worked
 on creating a location aware search, leveraging OpenStreet Maps and
 ElasticSearch.
 
@@ -122,6 +142,8 @@ This is basically to aid recruiters searching for technologies, which I'm
 skilled with but have not explicitly mentioned.
 
 * Python/Django/Flask 
+* Pandas/Numpy
+* JIRA
 * JavaScript/ES6/CoffeScript
 * Obj-C/Swift 
 * Docker
