@@ -1,14 +1,13 @@
-I’m a developer from Ireland who focuses on full stack web development. I have
-a number of years commercial experience with Python (Django and Flask) and
-modern JavaScript. While at times I have also worked with PHP, Objective-C 
-and Swift. I have experience working in agencies, health technology, financial
-technology, and startups. I enjoy coming up with simple and scalable
-solutions to complex problems.
+# Rollo Konig-Brock - Résumé August 28th 2017
 
-Along with software engineering I'm an Army Reservist, compete in
-triathlons, and distance running events.
+Passionate about programming, simplicity and pragmatism. Primarily a
+Python developer, but pretty good at JavaScript and other front end technologies too.
 
-As of the 18th September 2016 am I available for work.
+Currently looking for a new role.
+
+<font color="blue">
+[Github Profile](https://www.github.com/rollokb)
+</font>
 
 ## Experience
 
