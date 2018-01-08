@@ -1,4 +1,4 @@
-# Rollo Konig-Brock - Résumé August 28th 2017
+# Rollo Konig-Brock - Résumé September 22nd 2017
 
 Passionate about programming, simplicity and pragmatism. Primarily a
 Python developer, but pretty good at JavaScript and other front end technologies too.
@@ -6,7 +6,7 @@ Python developer, but pretty good at JavaScript and other front end technologies
 Currently looking for a new role.
 
 <font color="blue">
-[Github Profile](https://www.github.com/rollokb)
+[Github Profile](http://bit.ly/2hpfKv0)
 </font>
 
 ## Experience
