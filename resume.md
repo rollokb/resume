@@ -5,11 +5,24 @@ Python developer, but pretty good at JavaScript and other front end technologies
 
 Currently looking for a new role.
 
-<font color="blue">
 [Github Profile](http://bit.ly/2hpfKv0)
-</font>
 
 ## Experience
+
+### Contract - Full Stack Developer - TicTrac/Sport Relief
+*London - November 2017 - January 2018*
+
+Hired by TicTrac to develop a complex digital campaign for Sport Relief to be
+delivered on a tight 2 month deadline. Tasked with adapting a complex Django
+API; I delivered new large amounts of functionality and worked with the, iOS,
+Andriod, and Angular.JS teams, to foster an understanding of new features in a project
+that often had changing requirements.
+
+Due to personnel issues, at times I was asked to fill in for the Angular.JS team,
+implementing new functionality, directives and SCSS. I used this as an
+opportunity to give the iOS and Andriod teams a working example of designs and
+API implementation.
+
 
 ### Python Developer - ComplyAdvantage
 *London - January 2017 - September 2017*
@@ -30,7 +43,7 @@ export and migration of customer data. To handle the increasing volume I wrote
 set of tools that leveraged Pandas, Numpy, S3, SQS and Lambda, which enabled
 the customer success team to take over the much of the process.
 
-### Contract - Full Stack Developer, Lystable 
+### Contract - Full Stack Developer, Lystable (Now KaloHQ)
 *London - June 2016 - December 2016*
 
 With Lystable, I have primarily been a back end developer with a focus on
