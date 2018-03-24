@@ -10,7 +10,7 @@ Currently looking for a new role.
 ## Experience
 
 ### Contract - Full Stack Developer - TicTrac/Sport Relief
-*London - November 2017 - January 2018*
+*London - November 2017 - March 2018*
 
 Hired by TicTrac to develop a complex digital campaign for Sport Relief to be
 delivered on a tight 2 month deadline. Tasked with adapting a complex Django
@@ -22,6 +22,11 @@ Due to personnel issues, at times I was asked to fill in for the Angular.JS team
 implementing new functionality, directives and SCSS. I used this as an
 opportunity to give the iOS and Andriod teams a working example of designs and
 API implementation.
+
+Shortly before launch, I worked on scaling the app, focusing on SQL optimisation,
+achieving 100x performance increases in key areas. After launch I continued to
+provide support to the application as it's userbase grew from nothing to over 100k. 
+Later I moved on to work TicTrac's core product for the remainder of my contract.
 
 
 ### Python Developer - ComplyAdvantage
