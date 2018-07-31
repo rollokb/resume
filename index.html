@@ -1,32 +1,29 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Rollo's Resume</title>
-    <style type="text/css">
-      body {
-        margin:40px auto;
-        max-width:650px;
-        line-height:1.6;
-        font-size:18px;
-        color:#444;
-        padding:0 10px
-      }
-      h1,h2,h3 {
-        line-height:1.2
-      }
-    </style>
-  </head>
-  <body>
+<h1 id="rollo-konig-brock---résumé-july-23rd-2018">Rollo Konig-Brock - Résumé July 23rd 2018</h1>
 <p>Passionate about programming, simplicity and pragmatism. Primarily a Python developer, but pretty good at JavaScript and other front end technologies too.</p>
 <p>Currently looking for a new role.</p>
-<p><font color="blue"> <a href="https://www.github.com/rollokb">Github Profile</a> </font></p>
+<p><a href="http://bit.ly/2hpfKv0">Github Profile</a></p>
 <h2 id="experience">Experience</h2>
+<h3 id="contract---python-developer---mcsaatchiuk-department-of-international-trade">Contract - Python Developer - MCSaatchi/UK Department of International Trade</h3>
+<p><em>London - April 2018 - July 2018</em></p>
+<p>For the UK's Department of International Trade's 'Invest in Great' campaign I created a small application to deliver a personalised investment report for companies interested in moving to the UK. The core of this project was a PDF generator that would return professional quality documents. Built around this: was a Django CMS for creation and moderation of content; and a separate service for the frontend communicating over a HTTP API.</p>
+<p>The PDF generator was written using WeasyPrint, which is a Python library for the conversion of HTML to PDF documents. This posed some fun challenges using CSS to create flowing documents, and an opportunity to use some of CSS's lesser known print media features. Other technologies used included Celery, Cloudfoundy, Hawk Authentication, and various government specific APIs.</p>
+<p>This project is publicly available in the following repositories:</p>
+<ul>
+<li><a href="https://github.com/uktrade/invest-pir-api" class="uri">https://github.com/uktrade/invest-pir-api</a></li>
+<li><a href="https://github.com/uktrade/invest-pir-ui" class="uri">https://github.com/uktrade/invest-pir-ui</a></li>
+<li><a href="https://github.com/uktrade/invest-pir-api-client" class="uri">https://github.com/uktrade/invest-pir-api-client</a></li>
+</ul>
+<h3 id="contract---full-stack-developer---tictracsport-relief">Contract - Full Stack Developer - TicTrac/Sport Relief</h3>
+<p><em>London - November 2017 - March 2018</em></p>
+<p>Hired by TicTrac to develop a complex digital campaign for Sport Relief to be delivered on a tight 2 month deadline. Tasked with adapting a complex Django API; I delivered new large amounts of functionality and worked with the, iOS, Andriod, and Angular.JS teams, to foster an understanding of new features in a project that often had changing requirements.</p>
+<p>Due to personnel issues, at times I was asked to fill in for the Angular.JS team, implementing new functionality, directives and SCSS. I used this as an opportunity to give the iOS and Andriod teams a working example of designs and API implementation.</p>
+<p>Shortly before launch, I worked on scaling the app, focusing on SQL optimisation, achieving 100x performance increases in key areas. After launch I continued to provide support to the application as it's userbase grew from nothing to over 250k. I also provided on-site support for Sport Relief during Sport Relief week.</p>
 <h3 id="python-developer---complyadvantage">Python Developer - ComplyAdvantage</h3>
 <p><em>London - January 2017 - September 2017</em></p>
 <p>As a Python developer, I worked on the design and development of distributed and fault tolerant microservices, while also building carefully designed APIs. Due to the size of the datasets used at ComplyAdvantage I payed careful attention to performance and achieved a number of notable performance gains.</p>
 <p>While at ComplyAdvantage I lead the development of a new JSON-API compliant REST API, that unified two separate APIs, while paying careful attention to permissions granularity and performance. I also refactored existing code, such as moving a Tornado API to Flask and, optimising and replacing raw SQL with SQLAlchemy.</p>
 <p>I also had a customer facing role where I was responsible for the import, export and migration of customer data. To handle the increasing volume I wrote set of tools that leveraged Pandas, Numpy, S3, SQS and Lambda, which enabled the customer success team to take over the much of the process.</p>
-<h3 id="contract---full-stack-developer-lystable">Contract - Full Stack Developer, Lystable</h3>
+<h3 id="contract---full-stack-developer-lystable-now-kalohq">Contract - Full Stack Developer, Lystable (Now KaloHQ)</h3>
 <p><em>London - June 2016 - December 2016</em></p>
 <p>With Lystable, I have primarily been a back end developer with a focus on improving infrastructure of the backend, as well as the features that which requires full stack development. I worked on features such as:a webhook framework; audit logging systems; notification behaviors; database analytics; as well as third party integrations.</p>
 <p>The primary technologies used were, Python, Postgres, ElasticSearch, RabbitMQ, and a messaging framework built on top of rabbit called Nameko. I introduced the use of Postgres' asynchronous <code>NOTIFY</code> capability log changes to the database in a fault tolerant and scalable manner. I have also worked on creating a location aware search, leveraging OpenStreet Maps and ElasticSearch.</p>
@@ -72,6 +69,3 @@
 <h3 id="contact">Contact</h3>
 <p>rollokb+recruitment@gmail.com</p>
 <p>I am happy to take calls, but due to volume I prefer an introductory email.</p>
-
-  </body>
-</html>
