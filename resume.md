@@ -1,4 +1,4 @@
-# Rollo Konig-Brock - Résumé September 22nd 2017
+# Rollo Konig-Brock - Résumé July 23rd 2018
 
 Passionate about programming, simplicity and pragmatism. Primarily a
 Python developer, but pretty good at JavaScript and other front end technologies too.
@@ -8,6 +8,29 @@ Currently looking for a new role.
 [Github Profile](http://bit.ly/2hpfKv0)
 
 ## Experience
+
+
+### Contract - Python Developer - MCSaatchi/UK Department of International Trade
+*London - April 2018 - July 2018*
+
+For the UK's Department of International Trade's 'Invest in Great' campaign I
+created a small application to deliver a personalised investment report for
+companies interested in moving to the UK. The core of this project was a PDF
+generator that would return professional quality documents. Built around this:
+was a Django CMS for creation and moderation of content; and a separate service
+for the frontend communicating over a HTTP API.
+
+The PDF generator was written using WeasyPrint, which is a Python library for
+the conversion of HTML to PDF documents. This posed some fun challenges using
+CSS to create flowing documents, and an opportunity to use some of CSS's lesser
+known print media features. Other technologies used included Celery,
+Cloudfoundy, Hawk Authentication, and various government specific APIs.
+
+This project is publicly available in the following repositories:
+
+ * <https://github.com/uktrade/invest-pir-api>
+ * <https://github.com/uktrade/invest-pir-ui>
+ * <https://github.com/uktrade/invest-pir-api-client>
 
 ### Contract - Full Stack Developer - TicTrac/Sport Relief
 *London - November 2017 - March 2018*
@@ -25,9 +48,8 @@ API implementation.
 
 Shortly before launch, I worked on scaling the app, focusing on SQL optimisation,
 achieving 100x performance increases in key areas. After launch I continued to
-provide support to the application as it's userbase grew from nothing to over 100k. 
-Later I moved on to work TicTrac's core product for the remainder of my contract.
-
+provide support to the application as it's userbase grew from nothing to over 250k.
+I also provided on-site support for Sport Relief during Sport Relief week.
 
 ### Python Developer - ComplyAdvantage
 *London - January 2017 - September 2017*
