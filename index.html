@@ -1,71 +1,91 @@
-<h1 id="rollo-konig-brock---résumé-july-23rd-2018">Rollo Konig-Brock - Résumé July 23rd 2018</h1>
-<p>Passionate about programming, simplicity and pragmatism. Primarily a Python developer, but pretty good at JavaScript and other front end technologies too.</p>
-<p>Currently looking for a new role.</p>
-<p><a href="http://bit.ly/2hpfKv0">Github Profile</a></p>
-<h2 id="experience">Experience</h2>
-<h3 id="contract---python-developer---mcsaatchiuk-department-of-international-trade">Contract - Python Developer - MCSaatchi/UK Department of International Trade</h3>
-<p><em>London - April 2018 - July 2018</em></p>
-<p>For the UK's Department of International Trade's 'Invest in Great' campaign I created a small application to deliver a personalised investment report for companies interested in moving to the UK. The core of this project was a PDF generator that would return professional quality documents. Built around this: was a Django CMS for creation and moderation of content; and a separate service for the frontend communicating over a HTTP API.</p>
-<p>The PDF generator was written using WeasyPrint, which is a Python library for the conversion of HTML to PDF documents. This posed some fun challenges using CSS to create flowing documents, and an opportunity to use some of CSS's lesser known print media features. Other technologies used included Celery, Cloudfoundy, Hawk Authentication, and various government specific APIs.</p>
-<p>This project is publicly available in the following repositories:</p>
-<ul>
-<li><a href="https://github.com/uktrade/invest-pir-api" class="uri">https://github.com/uktrade/invest-pir-api</a></li>
-<li><a href="https://github.com/uktrade/invest-pir-ui" class="uri">https://github.com/uktrade/invest-pir-ui</a></li>
-<li><a href="https://github.com/uktrade/invest-pir-api-client" class="uri">https://github.com/uktrade/invest-pir-api-client</a></li>
-</ul>
-<h3 id="contract---full-stack-developer---tictracsport-relief">Contract - Full Stack Developer - TicTrac/Sport Relief</h3>
-<p><em>London - November 2017 - March 2018</em></p>
-<p>Hired by TicTrac to develop a complex digital campaign for Sport Relief to be delivered on a tight 2 month deadline. Tasked with adapting a complex Django API; I delivered new large amounts of functionality and worked with the, iOS, Andriod, and Angular.JS teams, to foster an understanding of new features in a project that often had changing requirements.</p>
-<p>Due to personnel issues, at times I was asked to fill in for the Angular.JS team, implementing new functionality, directives and SCSS. I used this as an opportunity to give the iOS and Andriod teams a working example of designs and API implementation.</p>
-<p>Shortly before launch, I worked on scaling the app, focusing on SQL optimisation, achieving 100x performance increases in key areas. After launch I continued to provide support to the application as it's userbase grew from nothing to over 250k. I also provided on-site support for Sport Relief during Sport Relief week.</p>
-<h3 id="python-developer---complyadvantage">Python Developer - ComplyAdvantage</h3>
-<p><em>London - January 2017 - September 2017</em></p>
-<p>As a Python developer, I worked on the design and development of distributed and fault tolerant microservices, while also building carefully designed APIs. Due to the size of the datasets used at ComplyAdvantage I payed careful attention to performance and achieved a number of notable performance gains.</p>
-<p>While at ComplyAdvantage I lead the development of a new JSON-API compliant REST API, that unified two separate APIs, while paying careful attention to permissions granularity and performance. I also refactored existing code, such as moving a Tornado API to Flask and, optimising and replacing raw SQL with SQLAlchemy.</p>
-<p>I also had a customer facing role where I was responsible for the import, export and migration of customer data. To handle the increasing volume I wrote set of tools that leveraged Pandas, Numpy, S3, SQS and Lambda, which enabled the customer success team to take over the much of the process.</p>
-<h3 id="contract---full-stack-developer-lystable-now-kalohq">Contract - Full Stack Developer, Lystable (Now KaloHQ)</h3>
-<p><em>London - June 2016 - December 2016</em></p>
-<p>With Lystable, I have primarily been a back end developer with a focus on improving infrastructure of the backend, as well as the features that which requires full stack development. I worked on features such as:a webhook framework; audit logging systems; notification behaviors; database analytics; as well as third party integrations.</p>
-<p>The primary technologies used were, Python, Postgres, ElasticSearch, RabbitMQ, and a messaging framework built on top of rabbit called Nameko. I introduced the use of Postgres' asynchronous <code>NOTIFY</code> capability log changes to the database in a fault tolerant and scalable manner. I have also worked on creating a location aware search, leveraging OpenStreet Maps and ElasticSearch.</p>
-<p>While my primary role at Lystable was the backend, I also worked on React.JS applications adding smaller features like integrations to third party services, and updates to how the application consumes our API.</p>
-<h3 id="contract---full-stack-developer-bought-by-many">Contract - Full Stack Developer, Bought By Many</h3>
-<p><em>November 2015 - June 2016</em></p>
-<p>As a full stack developer for Bought By Many I worked in agile teams on consumer facing Django websites such as ExoticDirect.com and BoughtByMany.com; Flask based micro-services; and frontend SaaS applications.</p>
-<p>I worked on everything from simple front end components written in CoffeeScript and SASS, to more complex realtime websocket powered user-interfaces. While work on Bought By Many’s Python based microservices involved adding new features, such as: new endpoints; analytical Mongo aggregations; and API integrations with third parties and our own services, to several large Flask applications.</p>
-<p>I created a new frontend SaaS application to replace the one written in Backbone.JS. This application served as a frontend to Bought By Many’s micro services; which needed a tool to visualize data and administrate aspects of the business. I rewrote the app in modern ES6; using RxJS (a functional JS library) as the primary library, while using D3.js for data visualisations. The build depended on PostCSS and Babel, and jQuery Globalize for internationalization (I18N).</p>
-<h3 id="full-stack-developer-seven-stones---total-health">Full Stack Developer, Seven Stones - Total Health</h3>
-<p><em>January 2015 - October 2015</em></p>
-<p>As a full stack web developer for Seven Stones Total Health, I worked on data driven static sites, used to market pharmaceuticals, and iOS applications which ranged from maintaining e-Details (interactive displays targeted for trade fairs and conferences) to internal projects which were part of the company’s wider strategy.</p>
-<p>Maintenance of the e-Details involved iterating existing Ember.js Cordova applications to work on later iOS platforms. I was also tasked with building an internal iOS project which relied heavily on presentation and video, a technical challenge I faced was the requirement that HLS video steams be available offline, which I successfully solved using Apple’s Swift to implement an intelligent proxy cache embedded in the app. New projects were done with a combination of native languages and React Native.</p>
-<p>I also worked on building responsive static sites based on look-and-feel designs, with responsive data visualisations using D3.js.</p>
-<h3 id="contract---web-developer-ks-agency-london">Contract - Web Developer, KS Agency London</h3>
-<p><em>October 2014 - January 2015</em></p>
-<p>Worked for KS Agency implementing designs and ideas from the designers. This mostly involved implementing designs from Photoshop, and effectively communicating the sites' behaviour.</p>
-<p>I created clean and responsive websites with semantic HTML, and clean preprocessed CSS, which degraded gracefully in older browsers. I also created a number of simple web applications within Drupal (PHP) for advanced searching of content and data.</p>
-<p>While I was there, I expanded the tool chain by introducing Git, SASS and Amazon Web Services, allowing for smoother deployment.</p>
-<h3 id="ios-developer-business-finance-magazine-dublin">iOS Developer, Business &amp; Finance Magazine (Dublin)</h3>
-<p><em>December 2012 - May 2013</em></p>
-<p>As a freelancer I designed and built an iOS app for Business &amp; Magazine (and accompanying CMS) for readers to read their monthly magazine (before everything went responsive).</p>
-<p>I worked to communicate with people at Business &amp; Magazine to maintain their visual style on mobile; and to implement as their request a, ‘pay per issue system’.</p>
-<p>For this I created a CMS for the app written in Django with a basic administration interface, which provided an API for the delivery content, and registration of in app purchases which were used to drive the pay per issue system.</p>
-<h3 id="intern-canonical-ltd.">Intern, Canonical Ltd.</h3>
-<p><em>February 2011 - March 2011</em> As an intern at Canonical I worked on the Ubiquity Desktop Installer, which is the graphical installer used on the Ubuntu series of operating systems.</p>
-<p>The desktop installer when I began was primarily written in Python 2, under guidance I helped port some of the installer to Python 3.</p>
-<p>The installer also needed a style update (in line with the rest of the OS). I was introduced to the ‘QT’ framework which uses CSS for styling the UI; I was responsible for updating some of the UI under the guidance of a graphic designer.</p>
-<h3 id="skills-basically-buzzwords">Skills (Basically buzzwords)</h3>
-<p>This is basically to aid recruiters searching for technologies, which I'm skilled with but have not explicitly mentioned.</p>
-<ul>
-<li>Python/Django/Flask</li>
-<li>Pandas/Numpy</li>
-<li>JIRA</li>
-<li>JavaScript/ES6/CoffeScript</li>
-<li>Obj-C/Swift</li>
-<li>Docker</li>
-<li>RabbitMQ/AMPQ</li>
-<li>Amazon AWS/Heroku</li>
-<li>UNIX/Linux Responsive Web</li>
-<li>Design Experience designing with Photoshop, Illustrator and Indesign.</li>
-</ul>
-<h3 id="contact">Contact</h3>
-<p>rollokb+recruitment@gmail.com</p>
-<p>I am happy to take calls, but due to volume I prefer an introductory email.</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rollo's Resume</title>
+    <style type="text/css">
+      body {
+        margin:40px auto;
+        max-width:650px;
+        line-height:1.6;
+        font-size:18px;
+        color:#444;
+        padding:0 10px
+      }
+      h1,h2,h3 {
+        line-height:1.2
+      }
+    </style>
+  </head>
+  <body>
+    <p>Passionate about programming, simplicity and pragmatism. Primarily a Python developer, but pretty good at JavaScript and other front end technologies too.</p>
+    <p>Currently looking for a new role.</p>
+    <p><a href="http://bit.ly/2hpfKv0">Github Profile</a></p>
+    <h2 id="experience">Experience</h2>
+    <h3 id="contract---python-developer---mcsaatchiuk-department-of-international-trade">Contract - Python Developer - MCSaatchi/UK Department of International Trade</h3>
+    <p><em>London - April 2018 - July 2018</em></p>
+    <p>For the UK's Department of International Trade's 'Invest in Great' campaign I created a small application to deliver a personalised investment report for companies interested in moving to the UK. The core of this project was a PDF generator that would return professional quality documents. Built around this: was a Django CMS for creation and moderation of content; and a separate service for the frontend communicating over a HTTP API.</p>
+    <p>The PDF generator was written using WeasyPrint, which is a Python library for the conversion of HTML to PDF documents. This posed some fun challenges using CSS to create flowing documents, and an opportunity to use some of CSS's lesser known print media features. Other technologies used included Celery, Cloudfoundy, Hawk Authentication, and various government specific APIs.</p>
+    <p>This project is publicly available in the following repositories:</p>
+    <ul>
+    <li><a href="https://github.com/uktrade/invest-pir-api" class="uri">https://github.com/uktrade/invest-pir-api</a></li>
+    <li><a href="https://github.com/uktrade/invest-pir-ui" class="uri">https://github.com/uktrade/invest-pir-ui</a></li>
+    <li><a href="https://github.com/uktrade/invest-pir-api-client" class="uri">https://github.com/uktrade/invest-pir-api-client</a></li>
+    </ul>
+    <h3 id="contract---full-stack-developer---tictracsport-relief">Contract - Full Stack Developer - TicTrac/Sport Relief</h3>
+    <p><em>London - November 2017 - March 2018</em></p>
+    <p>Hired by TicTrac to develop a complex digital campaign for Sport Relief to be delivered on a tight 2 month deadline. Tasked with adapting a complex Django API; I delivered new large amounts of functionality and worked with the, iOS, Andriod, and Angular.JS teams, to foster an understanding of new features in a project that often had changing requirements.</p>
+    <p>Due to personnel issues, at times I was asked to fill in for the Angular.JS team, implementing new functionality, directives and SCSS. I used this as an opportunity to give the iOS and Andriod teams a working example of designs and API implementation.</p>
+    <p>Shortly before launch, I worked on scaling the app, focusing on SQL optimisation, achieving 100x performance increases in key areas. After launch I continued to provide support to the application as it's userbase grew from nothing to over 250k. I also provided on-site support for Sport Relief during Sport Relief week.</p>
+    <h3 id="python-developer---complyadvantage">Python Developer - ComplyAdvantage</h3>
+    <p><em>London - January 2017 - September 2017</em></p>
+    <p>As a Python developer, I worked on the design and development of distributed and fault tolerant microservices, while also building carefully designed APIs. Due to the size of the datasets used at ComplyAdvantage I payed careful attention to performance and achieved a number of notable performance gains.</p>
+    <p>While at ComplyAdvantage I lead the development of a new JSON-API compliant REST API, that unified two separate APIs, while paying careful attention to permissions granularity and performance. I also refactored existing code, such as moving a Tornado API to Flask and, optimising and replacing raw SQL with SQLAlchemy.</p>
+    <p>I also had a customer facing role where I was responsible for the import, export and migration of customer data. To handle the increasing volume I wrote set of tools that leveraged Pandas, Numpy, S3, SQS and Lambda, which enabled the customer success team to take over the much of the process.</p>
+    <h3 id="contract---full-stack-developer-lystable-now-kalohq">Contract - Full Stack Developer, Lystable (Now KaloHQ)</h3>
+    <p><em>London - June 2016 - December 2016</em></p>
+    <p>With Lystable, I have primarily been a back end developer with a focus on improving infrastructure of the backend, as well as the features that which requires full stack development. I worked on features such as:a webhook framework; audit logging systems; notification behaviors; database analytics; as well as third party integrations.</p>
+    <p>The primary technologies used were, Python, Postgres, ElasticSearch, RabbitMQ, and a messaging framework built on top of rabbit called Nameko. I introduced the use of Postgres' asynchronous <code>NOTIFY</code> capability log changes to the database in a fault tolerant and scalable manner. I have also worked on creating a location aware search, leveraging OpenStreet Maps and ElasticSearch.</p>
+    <p>While my primary role at Lystable was the backend, I also worked on React.JS applications adding smaller features like integrations to third party services, and updates to how the application consumes our API.</p>
+    <h3 id="contract---full-stack-developer-bought-by-many">Contract - Full Stack Developer, Bought By Many</h3>
+    <p><em>November 2015 - June 2016</em></p>
+    <p>As a full stack developer for Bought By Many I worked in agile teams on consumer facing Django websites such as ExoticDirect.com and BoughtByMany.com; Flask based micro-services; and frontend SaaS applications.</p>
+    <p>I worked on everything from simple front end components written in CoffeeScript and SASS, to more complex realtime websocket powered user-interfaces. While work on Bought By Many’s Python based microservices involved adding new features, such as: new endpoints; analytical Mongo aggregations; and API integrations with third parties and our own services, to several large Flask applications.</p>
+    <p>I created a new frontend SaaS application to replace the one written in Backbone.JS. This application served as a frontend to Bought By Many’s micro services; which needed a tool to visualize data and administrate aspects of the business. I rewrote the app in modern ES6; using RxJS (a functional JS library) as the primary library, while using D3.js for data visualisations. The build depended on PostCSS and Babel, and jQuery Globalize for internationalization (I18N).</p>
+    <h3 id="full-stack-developer-seven-stones---total-health">Full Stack Developer, Seven Stones - Total Health</h3>
+    <p><em>January 2015 - October 2015</em></p>
+    <p>As a full stack web developer for Seven Stones Total Health, I worked on data driven static sites, used to market pharmaceuticals, and iOS applications which ranged from maintaining e-Details (interactive displays targeted for trade fairs and conferences) to internal projects which were part of the company’s wider strategy.</p>
+    <p>Maintenance of the e-Details involved iterating existing Ember.js Cordova applications to work on later iOS platforms. I was also tasked with building an internal iOS project which relied heavily on presentation and video, a technical challenge I faced was the requirement that HLS video steams be available offline, which I successfully solved using Apple’s Swift to implement an intelligent proxy cache embedded in the app. New projects were done with a combination of native languages and React Native.</p>
+    <p>I also worked on building responsive static sites based on look-and-feel designs, with responsive data visualisations using D3.js.</p>
+    <h3 id="contract---web-developer-ks-agency-london">Contract - Web Developer, KS Agency London</h3>
+    <p><em>October 2014 - January 2015</em></p>
+    <p>Worked for KS Agency implementing designs and ideas from the designers. This mostly involved implementing designs from Photoshop, and effectively communicating the sites' behaviour.</p>
+    <p>I created clean and responsive websites with semantic HTML, and clean preprocessed CSS, which degraded gracefully in older browsers. I also created a number of simple web applications within Drupal (PHP) for advanced searching of content and data.</p>
+    <p>While I was there, I expanded the tool chain by introducing Git, SASS and Amazon Web Services, allowing for smoother deployment.</p>
+    <h3 id="ios-developer-business-finance-magazine-dublin">iOS Developer, Business &amp; Finance Magazine (Dublin)</h3>
+    <p><em>December 2012 - May 2013</em></p>
+    <p>As a freelancer I designed and built an iOS app for Business &amp; Magazine (and accompanying CMS) for readers to read their monthly magazine (before everything went responsive).</p>
+    <p>I worked to communicate with people at Business &amp; Magazine to maintain their visual style on mobile; and to implement as their request a, ‘pay per issue system’.</p>
+    <p>For this I created a CMS for the app written in Django with a basic administration interface, which provided an API for the delivery content, and registration of in app purchases which were used to drive the pay per issue system.</p>
+    <h3 id="intern-canonical-ltd.">Intern, Canonical Ltd.</h3>
+    <p><em>February 2011 - March 2011</em> As an intern at Canonical I worked on the Ubiquity Desktop Installer, which is the graphical installer used on the Ubuntu series of operating systems.</p>
+    <p>The desktop installer when I began was primarily written in Python 2, under guidance I helped port some of the installer to Python 3.</p>
+    <p>The installer also needed a style update (in line with the rest of the OS). I was introduced to the ‘QT’ framework which uses CSS for styling the UI; I was responsible for updating some of the UI under the guidance of a graphic designer.</p>
+    <h3 id="skills-basically-buzzwords">Skills (Basically buzzwords)</h3>
+    <p>This is basically to aid recruiters searching for technologies, which I'm skilled with but have not explicitly mentioned.</p>
+    <ul>
+    <li>Python/Django/Flask</li>
+    <li>Pandas/Numpy</li>
+    <li>JIRA</li>
+    <li>JavaScript/ES6/CoffeScript</li>
+    <li>Obj-C/Swift</li>
+    <li>Docker</li>
+    <li>RabbitMQ/AMPQ</li>
+    <li>Amazon AWS/Heroku</li>
+    <li>UNIX/Linux Responsive Web</li>
+    <li>Design Experience designing with Photoshop, Illustrator and Indesign.</li>
+    </ul>
+    <h3 id="contact">Contact</h3>
+    <p>rollokb+recruitment@gmail.com</p>
+    <p>I am happy to take calls, but due to volume I prefer an introductory email.</p>
+  </body>
+</html>
