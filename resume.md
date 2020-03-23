@@ -1,4 +1,4 @@
-# Rollo Konig-Brock - Résumé
+# Rollo Konig-Brock - Resume
 
 Passionate about programming, simplicity and pragmatism. Primarily a
 Python developer, with a focus on writing high performing applications.
@@ -10,16 +10,36 @@ Also skilled in the frontend, and DevOps, and smatterings of C++ when needed.
 ### Contract - Lead Python Developer - IHS Markit Datalake Team
 *London - March 2019 - Present*
 
-Bought in as a ** replacement ** for a departing team of **contractors**, I refactored and rearchitected **a large** part of IHS Markit's **Datalake** project. Playing a key part in **transitioning** a proof of concept, to a product sold to **major** institutions.
+Bought in as a replacement for a departing team of contractors, I
+refactored and rearchitected a large part of IHS Markit's Datalake
+project. Playing a key part in transitioning a proof of concept, to a
+product sold to major institutions.
 
-In the initial **months** I was responsible for refactoring the **core** service into a maintainable, serviceable API; while **also** onboarding a remote team of former **Java** developers. The refactor required a rework of the database layer, **Elasticsearch**, and the core Flask Application; without causing breaking changes to internal **business** lines using the Datalake.
+In the initial months I was responsible for refactoring the core service
+into a maintainable, serviceable API; while also onboarding a remote team of
+former Java developers. The refactor required a rework of the database
+layer, Elasticsearch, and the core Flask Application; without causing
+breaking changes to internal business lines using the Datalake.
 
-I **used** this as an opportunity to train the group of new developers on SQLAlchemy, Flask, and Python. Through the introduction of **SQLAlchemy**, we were able to refactor deeply nested complex SQL views, into simple model based representations, **dramatically** improving performance.
+I used this as an opportunity to train the group of new developers on
+SQLAlchemy, Flask, and Python. Through the introduction of SQLAlchemy, we
+were able to refactor deeply nested complex SQL views, into simple model based
+representations, dramatically improving performance.
 
-I was also responsible for **integrating** the authentication layer within the wider company, introducing SAML and AWS IAM Role based **authentication**; and transitioning to an API **gateway** design. This allowed me to remove large amounts of **superfluous**
-infrastructure dedicated to authentication, reducing attack surface. The understanding of the **infrastrucutrea** gained through this enabled me to refactor signifant portions of Kuberentes config, and Terraform (with the help of DevOps).
+I was also responsible for integrating the authentication layer within the
+wider company, introducing SAML and AWS IAM Role based authentication; and
+transitioning to an API gateway design. This allowed me to remove large
+amounts of superfluous infrastructure dedicated to authentication, reducing
+attack surface. The understanding of the infrastrucutrea gained through this
+enabled me to refactor signifant portions of Kuberentes config, and Terraform
+(with the help of DevOps).
 
-More recently I helped in finding a new **London** team to help develop a service which would provide an **interface** major data science tools, including Spark, Pandas, KNIME, Athena, and more. A major focus of this project was high performance streaming, which I utilised Parquet and **Arrow heavily** for. In order to achieve **memory** efficient streams, I had to write Cython and C++ patches for Apache Arrow.
+More recently I helped in finding a new London team to help develop a
+service which would provide an interface major data science tools, including
+Spark, Pandas, KNIME, Athena, and more. A major focus of this project was high
+performance streaming, which I utilised Parquet and Arrow heavily for. In
+order to achieve memory efficient streams, I had to write Cython and C++
+patches for Apache Arrow.
 
 
 ### Contract - Python Developer - Barclays
