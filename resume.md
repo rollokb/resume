@@ -1,14 +1,45 @@
-# Rollo Konig-Brock - Résumé July 23rd 2018
+# Rollo Konig-Brock - Résumé
 
 Passionate about programming, simplicity and pragmatism. Primarily a
-Python developer, but pretty good at JavaScript and other front end technologies too.
+Python developer, with a focus on writing high performing applications.
 
-Currently looking for a new role.
-
-[Github Profile](http://bit.ly/2hpfKv0)
+Also skilled in the frontend, and DevOps, and smatterings of C++ when needed.
 
 ## Experience
 
+### Contract - Lead Python Developer - IHS Markit Datalake Team
+*London - March 2019 - Present*
+
+Bought in as a ** replacement ** for a departing team of **contractors**, I refactored and rearchitected **a large** part of IHS Markit's **Datalake** project. Playing a key part in **transitioning** a proof of concept, to a product sold to **major** institutions.
+
+In the initial **months** I was responsible for refactoring the **core** service into a maintainable, serviceable API; while **also** onboarding a remote team of former **Java** developers. The refactor required a rework of the database layer, **Elasticsearch**, and the core Flask Application; without causing breaking changes to internal **business** lines using the Datalake.
+
+I **used** this as an opportunity to train the group of new developers on SQLAlchemy, Flask, and Python. Through the introduction of **SQLAlchemy**, we were able to refactor deeply nested complex SQL views, into simple model based representations, **dramatically** improving performance.
+
+I was also responsible for **integrating** the authentication layer within the wider company, introducing SAML and AWS IAM Role based **authentication**; and transitioning to an API **gateway** design. This allowed me to remove large amounts of **superfluous**
+infrastructure dedicated to authentication, reducing attack surface. The understanding of the **infrastrucutrea** gained through this enabled me to refactor signifant portions of Kuberentes config, and Terraform (with the help of DevOps).
+
+More recently I helped in finding a new **London** team to help develop a service which would provide an **interface** major data science tools, including Spark, Pandas, KNIME, Athena, and more. A major focus of this project was high performance streaming, which I utilised Parquet and **Arrow heavily** for. In order to achieve **memory** efficient streams, I had to write Cython and C++ patches for Apache Arrow.
+
+
+### Contract - Python Developer - Barclays
+*London - September 2018 - Feburary 2019*
+
+For Barclays’ penetration testing team within the Chief Security Office we were
+tasked with developing an ad-hoc internal tool into a service deployable within
+Barclays’ corporate network. The tool was turned into a product which would call
+a Kubernetes API to run manage and scale short lived deployments of various
+security software packages and analyse the results.
+
+As part of a rewrite, my aim was to bring the project in line with best
+practices. I upgraded the project from Python 2 to 3; introduced unittests
+(via PyTest); and made the codebase PEP8 compliant. Structual changes included
+replacing adhoc low level solutions to data-storage, caching and messaging,
+with MongoEngine, and Flask-Cache (as a wrapper around Redis).
+
+New features included a RESTful API; a tree based versioning system for
+inputs; single sign on; a new UI built with JavaScript and BootStrap; and
+comprehensive audit logging and history of user actions.
 
 ### Contract - Python Developer - MCSaatchi/UK Department of International Trade
 *London - April 2018 - July 2018*
@@ -31,6 +62,10 @@ This project is publicly available in the following repositories:
  * <https://github.com/uktrade/invest-pir-api>
  * <https://github.com/uktrade/invest-pir-ui>
  * <https://github.com/uktrade/invest-pir-api-client>
+
+And can be viewed here:
+
+ * <https://www.great.gov.uk/international/invest/perfectfit/>
 
 ### Contract - Full Stack Developer - TicTrac/Sport Relief
 *London - November 2017 - March 2018*
@@ -99,8 +134,8 @@ Flask based micro-services; and frontend SaaS applications.
 
 I worked on everything from simple front end components written in CoffeeScript
 and SASS, to more complex realtime websocket powered user-interfaces. While work
-on Bought By Many’s Python based microservices involved adding new features, such 
-as: new endpoints; analytical Mongo aggregations; and API integrations with third 
+on Bought By Many’s Python based microservices involved adding new features, such
+as: new endpoints; analytical Mongo aggregations; and API integrations with third
 parties and our own services, to several large Flask applications.
 
 I created a new frontend SaaS application to replace the one written in
@@ -162,7 +197,7 @@ administration interface, which provided an API for the delivery content, and
 registration of in app purchases which were used to drive the pay per issue
 system.
 
-### Intern, Canonical Ltd. 
+### Intern, Canonical Ltd.
 *February 2011 - March 2011*
 As an intern at Canonical I worked on the Ubiquity Desktop Installer, which
 is the graphical installer used on the Ubuntu series of operating systems.
@@ -175,23 +210,28 @@ was introduced to the ‘QT’ framework which uses CSS for styling the UI; I wa
 responsible for updating some of the UI under the guidance of a graphic
 designer.
 
+### GitHub Profile
+
+[https://github.com/rollokb](http://bit.ly/2hpfKv0)
+
 ### Skills (Basically buzzwords)
 
-This is basically to aid recruiters searching for technologies, which I'm 
+This is basically to aid recruiters searching for technologies, which I'm
 skilled with but have not explicitly mentioned.
 
-* Python/Django/Flask 
-* Pandas/Numpy
+* Python/Django/Flask
+* C++/CMake
+* Pandas/Numpy/Arrow
 * JIRA
-* JavaScript/ES6/CoffeScript
-* Obj-C/Swift 
+* JavaScript/ES6
+* Obj-C/Swift
 * Docker
-* RabbitMQ/AMPQ
-* Amazon AWS/Heroku 
-* UNIX/Linux Responsive Web
+* RabbitMQ/AMPQ/SQS
+* Amazon AWS/IAM
+* UNIX/Linux/OSX
 * Design Experience designing with Photoshop, Illustrator and Indesign.
 
-### Contact 
+### Contact
 
 rollokb+recruitment@gmail.com
 
